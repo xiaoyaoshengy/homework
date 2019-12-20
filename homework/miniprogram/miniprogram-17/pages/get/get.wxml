@@ -1,0 +1,9 @@
+<view class="page-body">
+<view class="page-body-wrapper">
+<camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+<view class="a"><button type="primary" bindtap="startRecord" wx:if="{{a==0}}">开始</button></view>
+<view class="a1">预览</view>
+<view><image mode="widthFix" src="{{src}}"></image></view>
+</view>
+</view>
+<view class="a"><button type="primary" bindtap="www" wx:if="{{c==0}}">翻译</button></view>

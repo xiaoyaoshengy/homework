@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <camera flash="off" binderror="error" style="width: 300px; height: 400px;"></camera>
+  <button type="primary" bindtap="start">照相</button>
+  <button type="primary" bindtap="get">翻译</button>
+  <image style="width:600px; height:400px" src="{{src}}"></image>
+</view>

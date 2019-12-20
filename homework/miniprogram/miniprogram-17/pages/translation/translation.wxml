@@ -1,0 +1,6 @@
+<view class="a"><text>正在翻译 请耐心等待</text></view>
+<view><image mode="widthFix" src="{{src}}"></image></view>
+<view>
+<button type="primary" bindtap="get">翻译</button>
+<view class="b"><button type="primary" bindtap="f">继续翻译</button></view>
+</view>
